@@ -13,6 +13,8 @@
 		14D8BC1E2861A2CE00114B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC1C2861A2CE00114B8A /* Main.storyboard */; };
 		14D8BC202861A2D000114B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC1F2861A2D000114B8A /* Assets.xcassets */; };
 		14D8BC232861A2D000114B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC212861A2D000114B8A /* LaunchScreen.storyboard */; };
+		14D8BC2B2861A33600114B8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC2A2861A33500114B8A /* GoogleService-Info.plist */; };
+		19E989B950E67E991C37385A /* Pods_Nutritionist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AEC660636684E275303CE2 /* Pods_Nutritionist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		14D8BC1F2861A2D000114B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D8BC222861A2D000114B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14D8BC242861A2D000114B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D8BC2A2861A33500114B8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		473A19BF46E494C72C4ADBB5 /* Pods-Nutritionist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutritionist.debug.xcconfig"; path = "Target Support Files/Pods-Nutritionist/Pods-Nutritionist.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B655950F8FD4FA9F0EA7DF /* Pods-Nutritionist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutritionist.release.xcconfig"; path = "Target Support Files/Pods-Nutritionist/Pods-Nutritionist.release.xcconfig"; sourceTree = "<group>"; };
+		F6AEC660636684E275303CE2 /* Pods_Nutritionist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutritionist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E989B950E67E991C37385A /* Pods_Nutritionist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				14D8BC152861A2CE00114B8A /* Nutritionist */,
 				14D8BC142861A2CE00114B8A /* Products */,
+				C1C31D543C31F27D249685D5 /* Pods */,
+				835EE3C91D993DC5CD15F2AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,27 @@
 				14D8BC1F2861A2D000114B8A /* Assets.xcassets */,
 				14D8BC212861A2D000114B8A /* LaunchScreen.storyboard */,
 				14D8BC242861A2D000114B8A /* Info.plist */,
+				14D8BC2A2861A33500114B8A /* GoogleService-Info.plist */,
 			);
 			path = Nutritionist;
+			sourceTree = "<group>";
+		};
+		835EE3C91D993DC5CD15F2AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6AEC660636684E275303CE2 /* Pods_Nutritionist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1C31D543C31F27D249685D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				473A19BF46E494C72C4ADBB5 /* Pods-Nutritionist.debug.xcconfig */,
+				B8B655950F8FD4FA9F0EA7DF /* Pods-Nutritionist.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14D8BC272861A2D000114B8A /* Build configuration list for PBXNativeTarget "Nutritionist" */;
 			buildPhases = (
+				73887B9D22ABEDC722DECD98 /* [CP] Check Pods Manifest.lock */,
 				14D8BC0F2861A2CE00114B8A /* Sources */,
 				14D8BC102861A2CE00114B8A /* Frameworks */,
 				14D8BC112861A2CE00114B8A /* Resources */,
+				728447574D99C4586E03021E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D8BC232861A2D000114B8A /* LaunchScreen.storyboard in Resources */,
+				14D8BC2B2861A33600114B8A /* GoogleService-Info.plist in Resources */,
 				14D8BC202861A2D000114B8A /* Assets.xcassets in Resources */,
 				14D8BC1E2861A2CE00114B8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		728447574D99C4586E03021E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutritionist/Pods-Nutritionist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutritionist/Pods-Nutritionist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nutritionist/Pods-Nutritionist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73887B9D22ABEDC722DECD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutritionist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14D8BC0F2861A2CE00114B8A /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		14D8BC282861A2D000114B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473A19BF46E494C72C4ADBB5 /* Pods-Nutritionist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +384,7 @@
 		};
 		14D8BC292861A2D000114B8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B655950F8FD4FA9F0EA7DF /* Pods-Nutritionist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
