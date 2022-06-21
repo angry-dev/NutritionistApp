@@ -24,6 +24,14 @@ PODS:
     - GoogleUtilities/Network (~> 7.7)
     - "GoogleUtilities/NSData+zlib (~> 7.7)"
     - nanopb (~> 2.30908.0)
+  - FirebaseAuth (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseAuthUI (12.2.0):
+    - FirebaseAuth (< 10.0, >= 8.0)
+    - FirebaseCore
   - FirebaseCore (8.12.1):
     - FirebaseCoreDiagnostics (~> 8.0)
     - GoogleUtilities/Environment (~> 7.7)
@@ -38,6 +46,8 @@ PODS:
     - GoogleUtilities/Environment (~> 7.7)
     - GoogleUtilities/UserDefaults (~> 7.7)
     - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseUI/Auth (12.2.0):
+    - FirebaseAuthUI (~> 12.0)
   - GoogleAppMeasurement (8.12.0):
     - GoogleAppMeasurement/AdIdSupport (= 8.12.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
@@ -81,6 +91,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.7.0):
     - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.2)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
@@ -90,32 +101,42 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Analytics
+  - FirebaseAuth
+  - FirebaseUI/Auth
 
 SPEC REPOS:
   trunk:
     - Firebase
     - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthUI
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseInstallations
+    - FirebaseUI
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - GTMSessionFetcher
     - nanopb
     - PromisesObjC
 
 SPEC CHECKSUMS:
   Firebase: 580d09e8edafc3073ebf09c03fd42e4d80d35fe9
   FirebaseAnalytics: bd10d7706ba8d6e01ea2816f8fe9e9b881cb0918
+  FirebaseAuth: 3e73bf8abf4fbb40f8b421f361f4cc48ee57388c
+  FirebaseAuthUI: 9381cd32c4efcaf3550f4a95dd176fc73da253ee
   FirebaseCore: 8138de860a90ca7eec5e324da5788fb0ebf1d93c
   FirebaseCoreDiagnostics: 3b40dfadef5b90433a60ae01f01e90fe87aa76aa
   FirebaseInstallations: 25764cf322e77f99449395870a65b2bef88e1545
+  FirebaseUI: 33ee19f70792fae68bee5cbbbf93733baa2cc7fa
   GoogleAppMeasurement: ae033c3aad67e68294369373056b4d74cc8ae0d6
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: a76a257e0f7eae64a3a0f95f88fb993443ff4d2a
+PODFILE CHECKSUM: e567b185bdb37f65f2d58b1764948d42900d771b
 
 COCOAPODS: 1.11.3

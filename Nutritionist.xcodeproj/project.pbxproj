@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		14D8BC172861A2CE00114B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC162861A2CE00114B8A /* AppDelegate.swift */; };
 		14D8BC192861A2CE00114B8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC182861A2CE00114B8A /* SceneDelegate.swift */; };
-		14D8BC1B2861A2CE00114B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC1A2861A2CE00114B8A /* ViewController.swift */; };
+		14D8BC1B2861A2CE00114B8A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC1A2861A2CE00114B8A /* SignInVC.swift */; };
 		14D8BC1E2861A2CE00114B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC1C2861A2CE00114B8A /* Main.storyboard */; };
 		14D8BC202861A2D000114B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC1F2861A2D000114B8A /* Assets.xcassets */; };
 		14D8BC232861A2D000114B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC212861A2D000114B8A /* LaunchScreen.storyboard */; };
 		14D8BC2B2861A33600114B8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14D8BC2A2861A33500114B8A /* GoogleService-Info.plist */; };
+		14D8BC2D2861AC1100114B8A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC2C2861AC1100114B8A /* HomeVC.swift */; };
+		14D8BC2F2861AC4A00114B8A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC2E2861AC4A00114B8A /* SignUpVC.swift */; };
+		14D8BC332861E5A600114B8A /* FirebaseAuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8BC322861E5A600114B8A /* FirebaseAuthModule.swift */; };
 		19E989B950E67E991C37385A /* Pods_Nutritionist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AEC660636684E275303CE2 /* Pods_Nutritionist.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +24,15 @@
 		14D8BC132861A2CE00114B8A /* Nutritionist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutritionist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D8BC162861A2CE00114B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14D8BC182861A2CE00114B8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14D8BC1A2861A2CE00114B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14D8BC1A2861A2CE00114B8A /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		14D8BC1D2861A2CE00114B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14D8BC1F2861A2D000114B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D8BC222861A2D000114B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14D8BC242861A2D000114B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D8BC2A2861A33500114B8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14D8BC2C2861AC1100114B8A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		14D8BC2E2861AC4A00114B8A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		14D8BC322861E5A600114B8A /* FirebaseAuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthModule.swift; sourceTree = "<group>"; };
 		473A19BF46E494C72C4ADBB5 /* Pods-Nutritionist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutritionist.debug.xcconfig"; path = "Target Support Files/Pods-Nutritionist/Pods-Nutritionist.debug.xcconfig"; sourceTree = "<group>"; };
 		B8B655950F8FD4FA9F0EA7DF /* Pods-Nutritionist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutritionist.release.xcconfig"; path = "Target Support Files/Pods-Nutritionist/Pods-Nutritionist.release.xcconfig"; sourceTree = "<group>"; };
 		F6AEC660636684E275303CE2 /* Pods_Nutritionist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutritionist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,9 +71,10 @@
 		14D8BC152861A2CE00114B8A /* Nutritionist */ = {
 			isa = PBXGroup;
 			children = (
+				14D8BC312861E58E00114B8A /* Firebase */,
+				14D8BC302861D15E00114B8A /* View */,
 				14D8BC162861A2CE00114B8A /* AppDelegate.swift */,
 				14D8BC182861A2CE00114B8A /* SceneDelegate.swift */,
-				14D8BC1A2861A2CE00114B8A /* ViewController.swift */,
 				14D8BC1C2861A2CE00114B8A /* Main.storyboard */,
 				14D8BC1F2861A2D000114B8A /* Assets.xcassets */,
 				14D8BC212861A2D000114B8A /* LaunchScreen.storyboard */,
@@ -75,6 +82,24 @@
 				14D8BC2A2861A33500114B8A /* GoogleService-Info.plist */,
 			);
 			path = Nutritionist;
+			sourceTree = "<group>";
+		};
+		14D8BC302861D15E00114B8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14D8BC2E2861AC4A00114B8A /* SignUpVC.swift */,
+				14D8BC1A2861A2CE00114B8A /* SignInVC.swift */,
+				14D8BC2C2861AC1100114B8A /* HomeVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14D8BC312861E58E00114B8A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				14D8BC322861E5A600114B8A /* FirebaseAuthModule.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		835EE3C91D993DC5CD15F2AB /* Frameworks */ = {
@@ -91,7 +116,6 @@
 				473A19BF46E494C72C4ADBB5 /* Pods-Nutritionist.debug.xcconfig */,
 				B8B655950F8FD4FA9F0EA7DF /* Pods-Nutritionist.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,8 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D8BC1B2861A2CE00114B8A /* ViewController.swift in Sources */,
+				14D8BC332861E5A600114B8A /* FirebaseAuthModule.swift in Sources */,
+				14D8BC1B2861A2CE00114B8A /* SignInVC.swift in Sources */,
+				14D8BC2D2861AC1100114B8A /* HomeVC.swift in Sources */,
 				14D8BC172861A2CE00114B8A /* AppDelegate.swift in Sources */,
+				14D8BC2F2861AC4A00114B8A /* SignUpVC.swift in Sources */,
 				14D8BC192861A2CE00114B8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,4 +9,6 @@ target 'Nutritionist' do
 
 # Firebase
 pod 'Firebase/Analytics'
+pod 'FirebaseUI/Auth'
+pod 'FirebaseAuth'
 end
